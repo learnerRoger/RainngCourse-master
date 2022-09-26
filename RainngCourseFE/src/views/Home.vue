@@ -1,6 +1,6 @@
 hi<template>
   <div>
-    <h2 >欢迎使用课程设计平台</h2>
+    <h2 >欢迎使用E-Life智能生活小区</h2>
    
   </div>
 

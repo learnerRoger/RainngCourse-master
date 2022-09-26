@@ -3,7 +3,7 @@
     <div class="header-ico">
       <i class="el-icon-s-home"></i>
     </div>
-    <div class="logo">课程设计平台</div>
+    <div class="logo">E-Life智能生活小区</div>
     <div class="head-right">
       <div class="head-user-con">
         <div @click="handleFullScreen" class="btn-fullscreen">

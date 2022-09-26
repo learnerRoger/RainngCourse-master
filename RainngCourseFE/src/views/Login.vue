@@ -1,7 +1,7 @@
 <template>
   <div class="login-wrap">
     <div class="login-form">
-      <div class="form-title">课程设计平台</div>
+      <div class="form-title">E-Life智能生活小区</div>
       <el-form
         :model="formData"
         :rules="rules"
@@ -10,7 +10,7 @@
         ref="form"
       >
         <el-form-item prop="username">
-          <el-input placeholder="学号/工号/用户名" v-model="formData.username">
+          <el-input placeholder="用户名" v-model="formData.username">
             <span slot="prepend"><i class="el-icon-user"></i></span>
           </el-input>
         </el-form-item>
@@ -28,9 +28,8 @@
 
         <el-form-item prop="userType">
           <el-radio-group v-model="formData.userType">
-            <el-radio label="1">学生</el-radio>
-            <el-radio label="2">教师</el-radio>
-            <el-radio label="3">教务管理员</el-radio>
+            <el-radio label="1">用户</el-radio>
+            <el-radio label="3">管理员</el-radio>
           </el-radio-group>
         </el-form-item>
 
